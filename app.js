@@ -29,40 +29,44 @@
 // console.log(fizzBuzz);
 
 // ---------------- 4. Wild Wild Life ----------------
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-const sharky = ["Sharky", "shark", 20, "Left Coast"]
-const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+// const sharky = ["Sharky", "shark", 20, "Left Coast"]
+// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
 // Plantee just had her birthday; change Plantee's array to reflect her being a year older.
-for (let i in plantee) {
-    if (typeof plantee[i] === "number"){
-        plantee[i]++;
-    }
-}
-console.log(plantee);
+// for (let i in plantee) {
+//     if (typeof plantee[i] === "number"){
+//         plantee[i]++;
+//     }
+// }
+// console.log(plantee);
 
 // Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
-for (let i in wolfy) {
-    if (wolfy[i] === "Yukon Territory") {
-        wolfy[i] = "Gotham City"
-    };
-}
-console.log(wolfy);
+// for (let i in wolfy) {
+//     if (wolfy[i] === "Yukon Territory") {
+//         wolfy[i] = "Gotham City"
+//     };
+// }
+// console.log(wolfy);
 
 // Give D'Art a second hometown by adding "Hawkins"
-dart.push("Hawkins");
-console.log(dart);
+// dart.push("Hawkins");
+// console.log(dart);
 
 // Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfy array and replace it with "Gameboy".
-console.log(porgee);
-wolfy.shift();
-wolfy.unshift("Gameboy");
-console.log(wolfy);
+// console.log(porgee);
+// wolfy.shift();
+// wolfy.unshift("Gameboy");
+// console.log(wolfy);
 
 // ---------------- 5. Yell at the Ninja Turtles ----------------
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
+for (const i of ninjaTurtles) {
+    console.log(i.toUpperCase());
+}
 
 // ---------------- 6. Exercise ----------------
 
