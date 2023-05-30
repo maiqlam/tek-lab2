@@ -109,19 +109,44 @@
 // // index is -1 if not found in the array (but f+f was not removed, so index of f+f is 14).
 
 // ---------------- 7. Where is Waldo ----------------
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                      ["Lucinda", "Jacc", "Neff", "Snoop"],
-                      ["Petunia", ["Baked Goods", "Waldo"]]];
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                       ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                       ["Petunia", ["Baked Goods", "Waldo"]]];
 
-// Remove Eggbert (hint look at the slice/splice methods).
-// Change "Neff" to "No One".
-// Access and console.log "Waldo".
-whereIsWaldo.splice(whereIsWaldo.indexOf("Eggbert"), 1);
-whereIsWaldo[1].splice(2, 1, "No One");
-console.log(whereIsWaldo);
-console.log(whereIsWaldo[2][1][1]);
+// // Remove Eggbert (hint look at the slice/splice methods).
+// // Change "Neff" to "No One".
+// // Access and console.log "Waldo".
+// whereIsWaldo.splice(whereIsWaldo.indexOf("Eggbert"), 1);
+// whereIsWaldo[1].splice(2, 1, "No One");
+// console.log(whereIsWaldo);
+// console.log(whereIsWaldo[2][1][1]);
 
-// ---------------- 8. Exercise ----------------
+// ---------------- 8. Excited Kitten ----------------
+// for (let i = 0; i <= 20; i++) {
+//     console.log("Love me, pet me! HSSSSSS!");
+// }
+// const kittyTalk = ["...human... why you taking pictures of me...?", "...the catnip made me do it...", "...why does the red dot always get away...?"];
+// let meow = 0;
+// for (let i = 0; i <= 20; i++) {
+//     if (i % 2 === 0) {
+//         meow = i;
+//         i = kittyTalk[Math.round(Math.random() * kittyTalk.length)];
+//     console.log(kittyTalk[meow]);
+//     }
+// }
 
+// ---------------- 9. Find the Median ----------------
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort();
+let median = Math.floor(nums.length / 2);
+console.log(nums[median]);
 
-// ---------------- 9. Exercise ----------------
+// ---------------- 10. Hungry for More? ----------------
+
+// ---------------- 11. Alien Attire ----------------
+
+// ---------------- 12. Dress You Up ----------------
+
+// ---------------- 13. Dirty Laundry ----------------
+
+// ---------------- 14. Inventory ----------------
