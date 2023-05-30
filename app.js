@@ -109,7 +109,17 @@
 // // index is -1 if not found in the array (but f+f was not removed, so index of f+f is 14).
 
 // ---------------- 7. Where is Waldo ----------------
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
 
+// Remove Eggbert (hint look at the slice/splice methods).
+// Change "Neff" to "No One".
+// Access and console.log "Waldo".
+whereIsWaldo.splice(whereIsWaldo.indexOf("Eggbert"), 1);
+whereIsWaldo[1].splice(2, 1, "No One");
+console.log(whereIsWaldo);
+console.log(whereIsWaldo[2][1][1]);
 
 // ---------------- 8. Exercise ----------------
 
